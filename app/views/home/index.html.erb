@@ -1,0 +1,12 @@
+<h1>Days between Dates</h1>
+
+<div>
+  <div class="form-wrapper">
+    <%= form_for :search, method: :get do |t| %>
+      <%= t.date_field :start_date, as: :string, input_html: { class: "datepicker"} %>
+      <%= t.date_field :end_date, as: :string, input_html: { class: "datepicker"} %>
+      <%= t.submit "Submit" %>
+    <% end %>
+  </div>
+</div>
+
