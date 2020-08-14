@@ -1,24 +1,32 @@
-# README
+## Days between Dates
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Ruby version
+```
+2.7.1
+```
 
-Things you may want to cover:
+### Rails version
+```
+6.0.3
+```
 
-* Ruby version
+### Configuration
+```shell
+bundle install
+yarn install
+```
 
-* System dependencies
+### How to run the test suite
+```shell
+bundle exec rspec
+```
 
-* Configuration
+### Run the server
+```shell
+bundle exec rails server
+```
 
-* Database creation
+## Documentation
+The Project has two inputs: `start_date` and `end_date`, and one output:
+the difference between these two dates, which is measured in days and hours.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
