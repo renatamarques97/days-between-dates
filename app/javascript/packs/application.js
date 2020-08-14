@@ -9,16 +9,10 @@ require("channels")
 
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/themes/airbnb.css';
-import rangePlugin from "flatpickr/dist/plugins/rangePlugin"
 
-// flatpickr(".datepicker", {
-//   altInput: true,
-//   enableTime: true
-// });
-flatpickr("#start_date", {
+flatpickr(".date-picker", {
   altInput: true,
-  enableTime: true,
-  "plugins": [new rangePlugin({ input: "#end_date" })]
+  enableTime: true
 });
 
 
