@@ -35,3 +35,10 @@ yarn-debug.log*
 # vim
 *.swp
 *.swo
+
+# simplecov
+coverage/
+
+# mac
+.DS_Store
+
